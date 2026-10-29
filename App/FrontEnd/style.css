@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+main{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 10px;
+}
+header{
+    background-color:cadetblue;
+    text-align: center;
+    padding: 5px;
+}
+.firstThingYouSee{
+    text-align: center;
+    background-image: url('../images/SparrowOnBranch.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px; 
+    padding: 0px;    
+    border-radius: 0px;
+    position: relative;
+}
+#birdLookup{
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    size: auto;
+    text-size-adjust: 110%;
+}
+#box{
+    background-color:rgb(74, 120, 122);
+    position: absolute;
+    bottom: 50%;
+    left: 20px;
+    size: auto;
+    height: auto;
+    margin: auto;
+    max-width: 30%;
+    display: block;
+    padding: 10px;
+}
+h1{
+    color:rgb(211, 211, 211);
+}
