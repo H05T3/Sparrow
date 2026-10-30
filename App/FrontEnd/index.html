@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Project 2</title>
     <link rel="stylesheet" href="style.css">
+    <script src = "script.js" defer></script>
 </head>
 <body>
     <header>
@@ -12,18 +13,23 @@
     </header>
     <section class="firstThingYouSee">
         <span id="box">
-            <h1>Sparrow: Bird Lookup</h1>
+            <h2>Sparrow: Bird Lookup</h2>
             <p>Sparrow is a bird look up site to find pictures, facts,
-            and information about birds you are trying to look up</p>
+            and information about birds you are trying to look up 
+            all data comes from this API Repo: https://github.com/tustoz/ornithophile</p>
         </span>
     </section>
     <main>
         <section>
             <div id="bird-lookup">
                 <h2>Search Birds here!</h2>
-                <input type="text" placeholder="Type in a bird name here">
+                <input type="text" id="searchInput" placeholder="Type in a bird name here">
                 <button id="getName">Search</button>
                 <p>Data will be shown below</p>
+
+                <div id="birdResults">
+                    <!-- Come back and put more shit later-->
+                </div>
             </div>
         </section>
         
