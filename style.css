@@ -16,7 +16,7 @@ header{
 }
 .firstThingYouSee{
     text-align: center;
-    background-image: url('../images/SparrowOnBranch.jpg');
+    background-image: url('images/SparrowOnBranch.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
