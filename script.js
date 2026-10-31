@@ -1,4 +1,4 @@
-const API_URL = "https://ornithophile.vercel.app/api/birds?common_name=";
+const BASE_URL = "https://ornithophile.vercel.app/api/birds";
 const searchBtn = document.getElementById("getName");
 const loadManyBtn = document.getElementById("loadManyButton")
 const searchInput = document.getElementById("searchInput");
@@ -151,3 +151,5 @@ searchBtn.addEventListener("click", () => {
 loadManyBtn.addEventListener("click", () => {
     fetchTwentyBirds();
 });
+
+//I guess later if he doesn't notice I could try making a drop down to choose what to search by, since it goes only by name rn
